@@ -173,7 +173,7 @@ h1{
 }
 
 #skill-section{
-    width: 80%;
+    /* width: 100%; */
     height: auto; 
    padding: 80px; 
    background-color:rgba(0, 0, 0, 0.080);
@@ -182,17 +182,19 @@ h1{
 .header-skill-head{
     width: 80%;
     margin-bottom:50px ;
-    display: grid;
+    /* display: grid; */
     place-items: center;
     text-align: center;
+    margin-left: 60px;
 }
 
 .header-skill-head h2{
     margin-bottom: 5px;
+    
 }
 
 .skill-main{
- width: 90%;  
+ width: 100%;  
  display: grid;
  grid-template-columns: 1fr 1fr;
  /* grid-template-columns: repeat(2, 1fr); */
